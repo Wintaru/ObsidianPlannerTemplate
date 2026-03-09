@@ -1,0 +1,18 @@
+# Project content (synced via OneDrive, not git)
+Projects/
+Work Journal/
+Images/
+Contacts/
+
+# Obsidian plugin bundles (reinstalled automatically, large files)
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+
+# Obsidian workspace state (changes constantly, machine-specific)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+
+# OS files
+.DS_Store
+.trash/
