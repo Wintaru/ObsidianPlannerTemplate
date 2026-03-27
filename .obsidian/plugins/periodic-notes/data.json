@@ -1,0 +1,32 @@
+{
+  "daily": {
+    "format": "YYYY-MM-DD",
+    "template": "Templates/Daily Note.md",
+    "folder": "Work Journal",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "YYYY-[W]ww",
+    "template": "Templates/Weekly Review.md",
+    "folder": "Work Journal/Weekly",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "YYYY-MM",
+    "template": "Templates/Monthly Review.md",
+    "folder": "Work Journal/Monthly",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": "",
+    "enabled": false
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": "",
+    "enabled": false
+  }
+}

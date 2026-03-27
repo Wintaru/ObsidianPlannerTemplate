@@ -1,0 +1,19 @@
+# Personal content (sync these separately via OneDrive, iCloud, Obsidian Sync, etc.)
+# Remove these lines if you want to version-control your notes too.
+Work Journal/
+Projects/
+Images/
+Contacts/
+
+# Obsidian plugin bundles (downloaded automatically when you open the vault)
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+
+# Obsidian workspace state (changes constantly, machine-specific)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+
+# OS files
+.DS_Store
+.trash/
