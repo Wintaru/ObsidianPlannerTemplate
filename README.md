@@ -78,6 +78,10 @@ Tasks use the **Obsidian Tasks** plugin. Add tasks anywhere in the vault and the
 
 **Task Dashboard**: Opens on startup. Shows overdue tasks, due today, due this week, and all open tasks. Tasks must include the `#track` tag to appear on the dashboard.
 
+![Screenshot](https://github.com/user-attachments/assets/37f0dee5-230e-4599-9f35-f7e453dff136)
+
+Note: to get back to the dashboard pull up Obsidian's menu and type "Homepage"
+
 **Tip**: Use `Cmd+P` > "Tasks: Create or edit task" for a dialog that builds the task syntax for you.
 
 ### Quick Capture (QuickAdd)
@@ -105,6 +109,8 @@ Capture thoughts without leaving your current note:
 
 `Cmd+P` > "QuickAdd: New Meeting Note"
 
+![Screenshot](https://github.com/user-attachments/assets/658e1f60-e28d-4d9c-adb7-1186a6e7b5e5)
+
 Each meeting note includes:
 - Frontmatter for date, attendees, and project
 - Sections: Agenda, Discussion Notes, Action Items, Decisions Made
@@ -114,11 +120,15 @@ Each meeting note includes:
 
 `Cmd+P` > "Templater: Create new note from template" > choose **Project Note**
 
+![Screenshot](https://github.com/user-attachments/assets/d3f76831-8152-4544-a6e9-6b604acc4c73)
+
 Organize projects in the `Projects/` folder. Each project can have its own subfolder with related docs. When a project is done, use the **Archive Project** QuickAdd command to move it to `Projects/Archive/`.
 
 ### Contacts / People Notes
 
 `Cmd+P` > "Templater: Create new note from template" > choose **Contact**
+
+![Screenshot](https://github.com/user-attachments/assets/e839da04-5fea-4dd1-960c-e1e06c84f8bc)
 
 Save contact notes in `Contacts/`. Each note tracks role, projects, email, and meeting history. When you link a person in meeting notes or daily entries (`[[Person Name]]`), backlinks automatically build a history of every interaction.
 
