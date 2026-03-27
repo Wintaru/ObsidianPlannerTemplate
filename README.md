@@ -28,6 +28,8 @@ A ready-to-use [Obsidian](https://obsidian.md) vault for **work journaling, proj
 
 Your daily journal is the core of this vault. Each day gets its own note with sections for tasks, a work log, and free-form notes.
 
+![Screenshot](https://github.com/user-attachments/assets/27a18eb0-bcef-4720-8df2-ae34c052aa47)
+
 **How to use:**
 - `Cmd+P` > "Open today's daily note" -- creates today's entry from the template
 - Or click any date in the **Calendar sidebar** (right panel)
