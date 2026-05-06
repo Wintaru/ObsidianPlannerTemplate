@@ -2,13 +2,13 @@
 tags:
   - type/dashboard
 ---
-
 # Task Dashboard
 
 ## Overdue
 ```tasks
 not done
 due before today
+tags include #track
 sort by due
 ```
 
@@ -16,6 +16,7 @@ sort by due
 ```tasks
 not done
 due on today
+tags include #track
 sort by priority
 ```
 
@@ -24,6 +25,7 @@ sort by priority
 not done
 due after today
 due before next week
+tags include #track
 sort by due
 sort by priority
 ```
@@ -31,6 +33,7 @@ sort by priority
 ## All Open Tasks
 ```tasks
 not done
+tags include #track
 sort by due
 sort by priority
 group by filename

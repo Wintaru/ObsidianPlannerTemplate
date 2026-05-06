@@ -101,7 +101,7 @@
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false,
       "fileOpeningMode": {
-        "enabled": false,
+        "enabled": true,
         "mode": "default"
       }
     },

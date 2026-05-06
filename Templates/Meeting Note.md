@@ -1,14 +1,14 @@
 ---
-date: 2026-03-09
+date: <% tp.date.now("YYYY-MM-DD") %>
 tags:
   - type/meeting
 attendees:
 project:
 ---
 
-# null
+# <% tp.file.title %>
 
-**Date**: 2026-03-09
+**Date**: <% tp.date.now("YYYY-MM-DD") %>
 **Attendees**:
 **Project**:
 

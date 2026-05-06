@@ -4,9 +4,10 @@ Work Journal/
 Images/
 Contacts/
 
-# Obsidian plugin bundles (reinstalled automatically, large files)
+# Obsidian plugin bundles and version metadata (reinstalled/updated automatically)
 .obsidian/plugins/*/main.js
 .obsidian/plugins/*/styles.css
+.obsidian/plugins/*/manifest.json
 
 # Obsidian workspace state (changes constantly, machine-specific)
 .obsidian/workspace.json
