@@ -1,5 +1,6 @@
-# Project content (synced via OneDrive, not git)
-# .gitkeep files are excepted so folder structure is preserved in the repo
+# Personal content folders (synced via OneDrive, not git)
+# Add any new personal folders here to keep them out of the repo
+# .gitkeep files are excepted so folder structure is preserved for cloners
 Projects/
 !Projects/**/.gitkeep
 Work Journal/
@@ -8,6 +9,17 @@ Images/
 !Images/.gitkeep
 Contacts/
 !Contacts/.gitkeep
+Learning/
+
+# Exclude any loose markdown files at the root (personal notes, scratch pads, etc.)
+# Template/infrastructure files committed above are explicitly tracked
+/*.md
+!CLAUDE.md
+!AI\ Notes.md
+!Getting\ Started.md
+!Obsidian\ Reference\ Guide.md
+!Markdown\ Cheat\ Sheet.md
+!Plugin\ Recommendations.md
 
 # Obsidian plugin bundles and version metadata (reinstalled/updated automatically)
 .obsidian/plugins/*/main.js
