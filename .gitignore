@@ -1,8 +1,13 @@
 # Project content (synced via OneDrive, not git)
+# .gitkeep files are excepted so folder structure is preserved in the repo
 Projects/
+!Projects/**/.gitkeep
 Work Journal/
+!Work Journal/**/.gitkeep
 Images/
+!Images/.gitkeep
 Contacts/
+!Contacts/.gitkeep
 
 # Obsidian plugin bundles and version metadata (reinstalled/updated automatically)
 .obsidian/plugins/*/main.js
