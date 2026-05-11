@@ -2,17 +2,15 @@
 
 ## Vault Overview
 
-This is **jdonner's** professional work journal and project documentation vault, synced via OneDrive (DPLO365). It tracks multiple enterprise software projects, meeting notes, technical specs, and daily work entries.
+This is a professional work journal and project documentation vault. It tracks active software projects, meeting notes, technical specs, and daily work entries.
 
 ## Active Projects
 
 | Project | Path | Description |
 |---------|------|-------------|
-| **Tenzing** | `Projects/Tenzing/` | Strategic roadmap/change management platform; GitHub integration for Jira/DevOps replacement |
-| **Social Assurance** | `Projects/Social Assurance/` | Referral platform; DevOps migration (BitBucket→GitHub, CI/CD, Docker/Kamal) |
-| **Haberfeld** | `Projects/Haberfeld/` | Financial services (Plus One referral platform); SSL cert migration, reCAPTCHA upgrade, bug fixes |
-| **Settlement Streams** | `Projects/Settlement Streams/` | Parent org for financial services projects; shared infrastructure |
-| **Teammates** | `Projects/Teammates/` | Mentorship matching app; recent production deployment with jQuery upgrade |
+| **Project Name** | `Projects/Project Name/` | Brief description of the project |
+
+<!-- Add your active projects above. One row per project. -->
 
 ## Vault Structure
 
@@ -22,19 +20,12 @@ Work Notes/
 │   ├── Weekly/            # Weekly review notes (YYYY-Www.md)
 │   └── Monthly/           # Monthly review notes (YYYY-MM.md)
 ├── Projects/              # Active project documentation
-│   ├── Tenzing/           # + GitHub Integration subfolder
-│   ├── Haberfeld/         # Plus One referral platform (financial services)
-│   ├── Social Assurance/  # + DevOps/, Mind Mixer/
-│   ├── Settlement Streams/# Parent org; cert migration checklist
-│   ├── Teammates/
-│   └── Archive/           # Completed projects (Assurity, old quarterly reviews)
+│   └── Archive/           # Completed projects
 ├── Templates/             # Templater templates (configured in settings)
 ├── Contacts/              # People notes (one per person, tagged type/contact)
 ├── TODOs/                 # TODO tracking folder
 ├── Images/                # Attachments
-├── AI Notes.md
-├── Quarterly Communication Notes.md
-└── Markdown Cheat Sheet.md
+└── Custom Setup Stuff/    # Setup guides and how-tos
 ```
 
 ## Obsidian Configuration
@@ -101,7 +92,7 @@ See [[Plugin Recommendations]] for future plugin ideas.
 ```yaml
 ---
 date: 2026-03-09
-tags: [type/daily, project/tenzing]
+tags: [type/daily, project/my-project]
 status: active
 ---
 ```
@@ -119,6 +110,12 @@ status: active
 - Place images in `Images/` or use `./` relative paths
 - Use heading hierarchy (H1 for title, H2 for sections, H3 for subsections)
 - Keep one H1 per file (the note title)
+
+## Claude as Fallback for Vault Features
+
+When the user asks for a behavior or workflow, prefer Obsidian-native solutions (plugins, Dataview queries, Tasks queries, Templater, etc.) when they work well. But if a plugin or query can't deliver the desired result — whether it's too limited, too complex, or just not worth the setup — fall back on Claude to do the analysis, computation, or organization directly. The user's goal matters more than keeping everything inside Obsidian's plugin ecosystem.
+
+**Example**: Time estimates on tasks use `[est:: 30]` inline fields. Rather than building a complex Dataview query to bin tasks into a time window, the user can just ask Claude "I have 2 hours, what can I get done?" and Claude will read the tasks, do the math, and suggest a plan.
 
 ## Maintenance Rule: Getting Started.md
 **IMPORTANT**: Whenever changes are made to the vault that affect the user's workflow — new templates, new plugins, new folders, new conventions, updated commands, etc. — always update `Getting Started.md` to reflect those changes. This file is the user's quick-reference guide and must stay current.
